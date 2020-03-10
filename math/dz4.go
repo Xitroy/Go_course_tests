@@ -1,6 +1,10 @@
 package math
 
 import "fmt"
+
+// CalcOperation is a type that define allowed operations for calculator
+type CalcOperation string;
+
 // Calc is a function that return an operation function
 func Calc(operation CalcOperation) func(a, b float64) float64 {
 	// Place your solution here
