@@ -4,9 +4,6 @@ import (
 	"testing" 
 )
 
-// CalcOperation is a type that define allowed operations for calculator
-type CalcOperation string;
-
 // Predefined operations
 const (
 	Add      = "+"
